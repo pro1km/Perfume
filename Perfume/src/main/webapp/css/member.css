@@ -1,0 +1,75 @@
+label{cursor:pointer;}
+/**로그인 시작**/
+.login{font-size: 30px; margin-top: 5%;}
+.login_box1{width:750px; height: 300px; margin: 0 auto; border-color:#333333; margin-top: 20px;}
+.login_box1 > form  >ul{list-style:none; margin-top:100px; margin-left: 170px;}
+.login_box1 > form  >ul > li > input{height: 30px;}
+.btn{width:120px; height:115px; float:left; margin-top:-20px; margin-left: 60px; margin-right:50px;}
+.id { margin-left: 14px; margin-bottom: 10px;}
+.login_btn{width:112px; height: 80px; position: relative; top:-80px; left:350px; background-color: pink; border: none;  cursor: pointer;
+        color:white; font-size:22px;}
+.login_btn:hover{background-color:#ffa7a7; transition:0.5s all;}
+.hr{width:480px; margin-left: 210px; margin-top: -40px;}
+.lg_textbox{width: 750px; margin: 0 auto;}
+.login_text2{width:480px; margin-left: 210px; margin-top:10px;}
+.login_text2 > a{font-weight:bold;}
+/**로그인 끝**/
+
+/**약관동의 시작**/
+.terms{width:515px; height:175px; margin:0 auto;}
+.service{width:750px; margin: 0 auto; padding-top:50px;}
+.svc_box{width:750px; margin-top:5px;}
+.svc_terms{width:750px; height: 100px; white-space:pre-line;}
+.check1{margin-top: 25px;}
+
+.personal{width:750px; margin: 0 auto; margin-top: 25px;}
+.psn_box{width:750px; margin-top:5px;}
+.psn_terms{width:750px; height: 100px; white-space: pre-line;}
+.check2{margin-top:25px;}
+
+.terms_text{color:#767171; text-align: center; margin-top: 50px; font-size:13px;}
+.terms_btn{width:40px; padding:10px; text-align: center; margin: 0 auto; margin-top: 50px; background-color:#dca27e; border-radius:10px; font-weight:bold;}
+/**약관동의 끝**/
+
+/**회원가입 시작**/
+.information{width:515px; height: 175px; margin: 0 auto;}
+.info_text1{width: 800px; margin: 0 auto; text-align: right; margin-top: 50px; font-size:14px;}
+.info_table{width:800px; height: 300px;  border-collapse: collapse; margin: 0 auto;}
+.info_text2{width:270px; color:#767171; display: inline-block; margin-left: 10px; font-size:14px;}
+.star{color:red;}
+.info_btn{width:240px; margin: 0 auto; margin-top: 50px;}
+.info_btn > button{width:100px; height:40px; border: none; cursor: pointer;}
+.reset{margin-left: 25px; }
+.reset:hover{background-color:#ccc; transition:0.5s all;}
+.sub:hover{background-color:#ccc; transition:0.5s all;}
+.select{font-size: 12px; height: 30px;}
+.check{cursor:pointer;}
+td{padding: 15px;}
+input[type=text],input[type=password],button[type=button]{padding:3px;}
+select{cursor:pointer;}
+/**회원가입 끝**/
+
+/**마이페이지 시작**/
+.mypage{width: 800px; margin: 0 auto;}
+.rectangle{width:5px; height: 22px; background-color: #FCE7E7; float: left;}
+.my_text1{margin-left: 15px;}
+.my_hr1{width: 800px; margin: 10px auto;}
+.my_box1{width: 750px; height: 200px; background-color:#FCE7E7; margin: 30px auto; background-size: cover; background-image: url("../images/mypage_back.png"); background-position: center; }
+.my_circle{width: 150px; height: 150px; margin: auto; margin-top:-100px;}
+.my_id{font-size: 26px; text-align: center; margin-top: 10px;}
+.my_text2{font-size: 18px; text-align: center; color:#656666; margin-top: 20}
+.bar{color:black;}
+.my_hr2{width: 700px; margin: 0 auto; margin-top: 30px; border: 0; height: 1px; background: black;}
+.my_box2{width: 170px; height: 200px; border: 2px solid; color:#acacac;}
+.my_text3{margin-top: 20px; margin-bottom:10px;}
+.my_create{width: 100px; height: 30px; border-radius: 5px; cursor: pointer; border: 1px solid; background-color: white; color:#333;
+		   margin: 0 auto; line-height: 30px; margin-bottom:10px; font-size:14px;}
+.my_create:hover{color:red;}
+.my_review{width: 170px; float: left; text-align: center; padding-left:120px; margin-top:20px;}
+.my_rvbox{width: 1000px; margin: 0 auto;}
+.my_pager{width:1000px; margin: 0 auto; text-align: center; }
+.pager_num{width:1000px; margin: 0 auto; text-align: center;  float:left; font-size:18px; position:absolute; margin-top:350px;}
+.pager_num > a:hover{color:black;}
+.act a{font-weight: bold;}
+.noper{width:1000px; margin:0 auto; text-size:30px; font-weight: bold; text-align: center; margin-top: 100px;}
+/**마이페이지 끝**/

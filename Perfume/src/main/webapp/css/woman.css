@@ -1,0 +1,148 @@
+/**나눔고딕적용**/
+@font-face{font-family:'NanumGothic'; src:url(font/NanumGothic.ttf) format('truetype');}
+*{margin: 0px; padding: 0px; font-family:"NanumGothic"; }
+body {overflow-x:auto; overflow-y:auto;} 
+a{text-decoration: none;}
+a:link {text-decoration: none; color: black;}
+a:visited {text-decoration: none; color: black;}
+a:hover {text-decoration: none; color: black;}
+label{cursor: pointer;}
+
+/**헤더**/
+#wrap{width:100%; border-top:solid 2px #c55889;}
+.header{width:960px; height:123px; margin:0 auto;}
+.logo{float:left;}
+.firstbox{width:930px; height:30px; margin-top:10px;}
+.header .first li {float:right; font-size:14px; list-style:none; text-decoration:none; color:#666666; padding:0px 10px;  }
+.header .second{float:right; margin-top:-20px;}
+.header .second li {float:right; font-size:16pt; font-weight:bold; list-style:none; text-decoration:none; color:black; padding:0px 36px; margin-top:50px; }
+.header .first li a{text-decoration:none; color:#666666;}
+.header .second li a{text-decoration:none; color:black;}
+/**헤더 끝**/
+
+/**서브헤더**/
+ul{list-style:none;}
+.sub_title{width:878px; height:60px; margin:auto;}
+.sub_title > ul > li:nth-child(1){width: 5px; height:20px; background-color:#ebcab6; float: left;}
+.sub_title > ul > li:nth-child(2){height:20px; line-height:20px; padding-left:15px; font-size:18px;}
+hr{width:878px; margin:auto; margin-top: 10px;}
+/**서브헤더 끝**/
+
+#step1{width:100%; height:1000px;  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)) , url("../images/step0_woman.jpg"); background-size: cover; background-position: center;}
+.step1_text{text-align: center; color:#fff; padding-top:15%;}
+    .step1_text > li:nth-child(1){font-size:20px;}
+    .step1_text > li:nth-child(2){font-size:50px; font-weight:bold;}
+    .step1_text > li:nth-child(3){font-size:26px; padding-top:20px;}
+.start_btn{padding:10px 30px; border:5px solid; font-size:30px; font-weight:bold; color:white; background-color: rgba(100, 100, 100, 0.4); cursor: pointer; margin:auto;}
+.start_btn:hover{background-color:#c55889; transition:all 0.7s; }
+
+/* woman01 시작*/
+.tabmenu{width:878px; margin:0 auto; } 
+.tab {list-style: none; margin: 0; padding: 0; overflow: hidden; }
+.drag{float:left; width:435px; text-align:center;}
+.cancel{padding:10px; background:#dddddd; border:1px solid #becbe1; border-radius:30px; cursor:pointer;}
+        
+/* 탭메뉴 정렬 */
+.tab li {float: left; border-radius: 8px 8px 0 0;}
+        
+/* 탭메뉴 스타일 */
+.tab li a {
+    width:80px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+        
+/* 내부 내용 스타일 */
+.tabcontent {
+    height: 260px;
+    display: none;
+    background-color:#f3e0d5;
+    padding: 1px;
+}
+        
+/* 선택된 탭 */
+ul.tab li.current{background-color: #f3e0d5;}
+        
+/* 선택된 탭 폰트 */
+ul.tab li.current > a{font-weight: bold;}
+        
+/* 선택되지않은 탭들 */
+ul.tab li{background-color: #f3e0d5;}
+        
+/* 다른 탭들 안보이게하는 것 */
+.tabcontent.current {display: block;}
+
+.step_btn{width:235px; margin:auto;} 
+.step_btn > button{padding:5px; cursor:pointer; margin-left:10px; margin-right:10px; float:left;}
+
+.w1_a{color:black;}        
+.w1_tab2{margin-left: 5px;}
+.w1_group > li{float: left; list-style: none}
+.w1_circle{width: 160px; height: 160px; border: 3px solid #ee7c7f; background-color: white; border-radius: 50%; margin:40px 25px;
+    text-align: center; font-weight: bold;}
+.w1_combination{width: 888px; margin: 0 auto; margin-top: 30px;}
+.w1_cbtab{ list-style: none; margin: 0; padding: 0;}
+.w1_cbox1{ width: 110px; height: 40px; background-color: #ee7c7f; text-align:center; font-size: 18px; color: white; line-height: 40px;}
+.w1_cbox2{width: 878px; height: 260px; border: 5px solid #ee7c7f; padding: 1px;}
+.w1_plus{width:30px; margin: 0 auto; margin-top: -145px;}
+.w1_width{width: 30px; height: 10px; background-color: #ee7c7f;}
+.w1_height{width: 10px; height: 30px; background-color: #ee7c7f; margin: 0 auto; margin-top: -20px;}
+.w1_jump1{list-style-type: none; width:195px; margin: 0 auto; margin-top: 200px;}
+.w1_jump1 > li{float: left; padding: 5px;}
+.w1_jump2{list-style-type: none; width:280px; margin: 0 auto; margin-top: 20px; }
+.w1_jump2 > li{float: left; padding: 5px;}
+.w1_j1{width: 20px; height: 20px; background-color: #9a9a9a; border-radius: 50%; float:left;  margin-left:5px;}
+.w1_j2{width: 20px; height: 20px; background-color: #d4d4d4; border-radius: 50%; float:left;  margin-left:5px;}
+.w1_a{text-decoration: none; font-size: 18px;}
+.w1_img{padding: 30px;}
+.w1_tabtext{text-align: center; font-weight: bold; margin-top: -25px;}
+.alert_text{text-align:center; margin-top: 150px; color:#666}
+/* woman01 끝*/
+
+/* woman02 시작*/
+.w2_box1{width: 110px; height: 40px; background-color: #dca27e; color: white; font-size: 18px; text-align: center; line-height: 40px;
+         margin: 0 auto;}
+.w2_circle{width: 320px; height: 320px; border: 10px solid #edd0be; border-radius: 50%; margin: 0 auto; margin-top: 40px;}
+.w2_recommend{width: 510px; margin: 0 auto; margin-top: 20px;}
+.w2_rctab{list-style:none; margin: 0; padding: 0;}
+.w2_rcbox1{width: 160px; height: 40px; background-color: #edd0be; color: #666666; font-size: 18px; text-align: center; line-height: 40px;}
+.w2_rcbox2{width: 500px; height: 200px; border: 5px solid #edd0be; padding: 1px;}
+.w2_rcbox2_name{width:500px; height:50px; text-align:center; font-size:20px; margin-top:20px;}
+.w2_rcbox2_desc{width: 500px; height:130px; font-size:26px;}
+/* woman02 끝*/
+
+/* woman03 시작*/
+.w3_box1{width:980px; height:592px; margin:0 auto; margin-top: -15px;}
+.w3_box2{width:300px; height:653px; margin:0 auto; padding-bottom:20px; float: left; width: 50%; box-sizing: border-box;}
+.w3_box3{width:130px; height:40px; background-color: #ee7c74 ; margin: 0 auto; margin-top:35px; font-size: 18px; color: white; text-align: center; line-height:36px;}
+.w3_box4{width:480px; height:528px; margin:0 auto; padding-bottom:20px; margin-top:20px;  }
+.w3_box5{width:240px; height:274px; margin: 0 auto;  float: left; width: 50%; box-sizing: border-box;}
+.w3_box6{width:300px; height:653px; margin:0 auto; padding-bottom:20px; float: left; width: 50%; box-sizing: border-box;}
+.w3_box7{width:130px; height:40px; background-color: #ee7c74 ; margin: 0 auto; margin-bottom:50px; margin-top:35px; font-size: 18px; color: white; text-align: center; line-height:36px;}
+.w3_box8{height:100px; margin-top:35px; border: solid #fce7d8; float: left; width: 46%; box-sizing: border-box; background-image: url("../images/slogo.png"); background-position: center; background-repeat: no-repeat; background-size: auto;}
+.w3_box9{margin-bottom:30px; margin-top:35px; float: left; width: 46%; box-sizing: border-box; margin-left: 7%;}
+.w3_box10{width:130px; height:40px; background-color: #ee7c74 ; margin: 0 auto; margin-bottom:50px; margin-top:35px; font-size: 18px; color: white; text-align: center; line-height:36px;}
+.w3_circle1{width:160px; height:160px; margin: 0 auto; -webkit-border-radius:90px; -moz-border-radius:90px; border-radius:90px; border: solid #ee7c74; margin-top:30px; background-image: url("../images/perfume_bottle/w_perfume_bottle_1.png"); background-position: center; background-repeat: no-repeat; background-size: auto;}
+.w3_circle2{width:160px; height:160px; margin: 0 auto; -webkit-border-radius:90px; -moz-border-radius:90px; border-radius:90px; border: solid #ee7c74; margin-top:30px; background-image: url("../images/perfume_bottle/w_perfume_bottle_2.png"); background-position: center; background-repeat: no-repeat; background-size: auto;}
+.w3_circle3{width:160px; height:160px; margin: 0 auto; -webkit-border-radius:90px; -moz-border-radius:90px; border-radius:90px; border: solid #ee7c74; margin-top:30px; background-image: url("../images/perfume_bottle/w_perfume_bottle_3.png"); background-position: center; background-repeat: no-repeat; background-size: auto;}
+.w3_circle4{width:160px; height:160px; margin: 0 auto; -webkit-border-radius:90px; -moz-border-radius:90px; border-radius:90px; border: solid #ee7c74; margin-top:30px; background-image: url("../images/perfume_bottle/w_perfume_bottle_4.png"); background-position: center; background-repeat: no-repeat; background-size: auto;}
+input[type="radio"]{margin-left: 116px;  vertical-align:middle; }
+.w3_div_radio1 > input[type="radio"]{margin-left: 194px;}
+.w3_div_radio2 > input[type="radio"]{margin-left: 194px;}
+.w3_div_radio1{font-size: 14px;}
+.w3_div_radio2{font-size: 14px;}
+.w3_text1{ font-size: 14px; color: #cdcece; text-align:center; width:300px; margin:auto;}
+/* woman03 끝*/
+
+/* woman04 시작*/
+.w4_box1{width:1000px; height:640px; margin:0 auto; padding-bottom:20px;}
+.w4_box2{width:180px; height:40px; background-color: #ee7c74 ; margin: 0 auto; margin-top:35px; font-size: 18px; color: white;  text-align: center; line-height:36px;}
+.w4_box3{width:350px; height:450px; background-color: #f2d1cf ; margin: 0 auto; margin-top:30px;}
+.w4_text1{font-size:14px; text-align: center;  margin-top:20px;}
+.w4_box4{position:absolute; width:150px; height:40px; border:#9a9a9a 2px solid; margin-left:425px; margin-top:42px; font-weight:bold; color: #000; background-color:#fff; text-align: center; line-height:36px; cursor: pointer;}
+.w4_box4:hover{background-color:#dddddd; transition: 0.5s all;}
+span{font-weight:bold;}
+/* woman04 끝*/

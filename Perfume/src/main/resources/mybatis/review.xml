@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="review">
+	<select id="list" resultType="Review">
+		SELECT * FROM review, perfume WHERE review.p_num=perfume.p_num
+		ORDER BY r_num DESC LIMIT #{start}, #{perPage}
+	</select>
+	
+	<select id="item" resultType="Review">
+		SELECT * FROM review,perfume WHERE review.p_num=perfume.p_num AND r_num=#{rNum}
+	</select>
+	
+	<delete id="delete">
+		DELETE FROM review WHERE r_num=#{rNum}
+	</delete>
+	
+	<insert id="add">
+		INSERT INTO review (perfume_name, r_contents, filename, id, p_num)
+		VALUES (#{perfumeName}, #{rContents}, #{filename}, #{id}, #{pNum})
+	</insert>
+	
+	<update id="update">
+		UPDATE review
+		SET perfume_name=#{perfumeName}, r_contents=#{rContents}, filename=#{filename}
+		WHERE r_num=#{rNum}
+	</update>
+	
+	<select id="total" resultType="Integer">
+		SELECT COUNT(*) FROM review
+	</select>
+	
+	
+</mapper>

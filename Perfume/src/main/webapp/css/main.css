@@ -1,0 +1,104 @@
+ul{list-style:none;}
+/*슬라이드*/                  
+#slide{width:100%; height:673px; overflow:hidden; position:relative; margin-top:10px;}
+   .visual-slider{position:absolute; width:400%; height:673px; z-index:-1;}
+   .visual-slider ul{width:100%;}
+   .visual-slider ul li{width:25%; height:673px; text-indent:-9999px; float:left; opacity:0.5;}
+   .visual-slider ul li.active{opacity:1;}
+   .visual-slider ul li:nth-child(1){background:url(../images/visual1.png) center center; background-size:cover;}
+   .visual-slider ul li:nth-child(2){background:url(../images/visual2.png) center center; background-size:cover;}
+   .visual-slider ul li:nth-child(3){background:url(../images/visual3.png) center center; background-size:cover;}
+   .visual-slider ul li:nth-child(4){background:url(../images/visual4.png) center center; background-size:cover;}
+   
+   .visual{width:400px; height:100px; position:absolute; left:50%; transform:translateX(-50%); top:100px; opacity:.8}
+      #btns{width:150px; margin:auto; margin-top: 540px;}
+      #btns img{float:left; cursor:pointer;}
+      .under-btn{width:17px; height:17px; text-indent:-9999px; border:2px solid #c0c0c0; float:left; border-radius:100%; margin:0 2px; cursor:pointer;}
+      .active-btn{background:#fed3c2;}
+/**슬라이드 끝**/
+
+/**box1 시작**/
+.box1{width:1000px; height:444px; margin:0 auto; background-image: url("../images/banner1_bg.png"); border:solid white 1px;}
+.BlackLine{width:73px;  margin: 0 auto; border-bottom:solid 2px black; margin-top:128px;}
+.text1{font-size:30px; font-weight:bold; text-align:center;}
+.text2{font-size:20px; font-weight:bold; text-align:center; color:#e95e71; padding-top:82px;}
+.text3{font-size:30px; font-weight:bold; text-align:center; color:#e95e71; padding-bottom:26px;}
+.text4{font-size:16px;  color:#666666; text-align:center; padding-bottom:6px;}
+/**box1 끝**/
+
+.box2{width:1000px; margin:0 auto; padding-top:84px;}
+
+/**box3 시작**/
+.box3{width:100%; height:270px; background:url("../images/banner3.png") center top;}
+.box3-text{width:420px; margin: 0 auto; margin-top:88px; margin-left:50%; padding-top: 80px;}
+.box3 div{font-size:18px; color:white; text-align:left;}
+.box3-text2{margin-left:20px; padding-bottom:43px;}
+.box3-text3{ margin-left:30px;}
+.box3 .box3-text2 .big{font-size:36px; font-weight:bold;}
+/**box3 끝**/
+
+/**box4 시작**/
+.box4{width:100%; height:200px; margin: 0 auto;}
+.BlackLine2{width:73px;  margin: 0 auto; border-bottom:solid 2px black;padding-top: 100px;}
+.text5{font-size:30px; font-weight:bold; text-align:center; }
+.submitbox{width:960px; height:300px; margin:0 auto; margin-top:300px; }
+.submit{width:86px; height:58px; }
+
+/**box4 끝**/
+
+/*box5 전체*/
+.box5{width:1000px; height:700px; margin: 0 auto;}
+.box5_1{position: relative; width: 50%; height:300px; float: left; box-sizing: border-box; background:url("../images/index_prefume1.png");}
+.box5_2{position: relative; width: 50%; height:300px; float: left; box-sizing: border-box; background:url("../images/index_prefume2.png");}
+.box5_3{position: relative; width: 50%; height:300px; float: left; box-sizing: border-box; background:url("../images/index_prefume3.png");}
+.box5_4{position: relative; width: 50%; height:300px; float: left; box-sizing: border-box; background:url("../images/index_prefume4.png");}
+/*box5 1번 끝*/
+
+/*box5 1번 시작*/
+.box5_box1{width:50%; height: 30px; position:absolute ; right: 5px; margin-top: 125px;}
+.box5_text1{width: 50%; height:30px; float: left; box-sizing: border-box; text-align: center;}
+.box5_text2{width: 35%; height:30px; float: left; box-sizing: border-box; text-align: center;}
+.box5_1_textbox{position:absolute ; right: 0px; width:50%; height: 50px; margin-top: 160px; text-align: center;}
+/*box5 1번 끝*/
+
+/*box5 2번 시작*/
+.box5_box2{position:absolute ; left: 190px; width:50%; height:30px; margin: 0 auto; margin-top: 125px;}
+.box5_box2_text1{width: 50%; height:30px; float: left; box-sizing: border-box;  text-align: center;}
+.box5_box2_text2{width: 25%; height:30px; float: left; box-sizing: border-box;  text-align: center;}
+.box5_2_textbox{width:45%; height: 50px; position:absolute ; left: 190px; float: right; margin-top: 160px; text-align: center;}
+/*box5 2번 끝*/
+
+/*box5 3번 시작*/
+.box5_box3{width:50%; height: 30px; top:10px; position:absolute ; right: 5px;  margin-top: 125px;}
+.box5_box3_text1{width: 50%; height:30px; float: left; box-sizing: border-box; text-align: center; } 
+.box5_box3_text2{width: 35%; height:30px; float: left; box-sizing: border-box; text-align: center; }
+.box5_3_textbox{position:absolute ; right: 0px; width:50%; height: 50px; margin-top: 160px; text-align: center;}
+/*box5 3번 끝*/
+
+/*box5 4번 시작*/
+.box5_box4{position:absolute ; left: 190px; top:10px; width:50%; height: 30px; margin: 0 auto; margin-top: 125px;}
+.box5_box4_text1{width: 50%; height:30px; float: left; box-sizing: border-box; text-align: center;}
+.box5_box4_text2{width: 25%; height:30px; float: left; box-sizing: border-box; text-align: center;}
+.box5_4_textbox{position:absolute ; left: 190px; float: right; width:45%; height: 50px; margin-top: 170px; text-align: center;}
+/*box5 4번 끝*/
+
+/*자세희보기 탭 시작*/
+.detail_btn_parent{width:1000px; height: 400px; margin: auto;margin-top: -450px;}
+.btn_01{margin-top: 210px; margin-left: 310px; position:absolute; padding:3px; border:1px solid #666 ; text-align: center; border-radius:5px; font-size:14pt;}
+.btn_02{margin-top: 210px; margin-left: 250px; position:absolute; padding:3px; border:1px solid #666 ; text-align: center; border-radius:5px; font-size:14pt;}
+.btn_03{margin-top: 210px; margin-left: 310px; position:absolute;  padding:3px; border:1px solid #666 ; text-align: center; border-radius:5px; font-size:14pt;}
+.btn_04{margin-top: 210px; margin-left: 250px; position:absolute; padding:3px; border:1px solid #666 ; text-align: center; border-radius:5px; font-size:14pt;}
+/*자세희보기 탭 시작*/
+
+/**footer 시작**/
+.footer{width:100%; height:477px; background:url("../images/footer1.png") center top; }
+.footer_text{width:1000px; height:477px; margin:0 auto; }
+.footer-text1{width:400px; height:255px; padding-top:120px; float: left; }
+.center1{font-size:24px;}
+.phone{font-size:30px; padding-bottom:33px;}
+.center2{font-size:14px; padding-bottom:6px;}
+.email{font-size:14px; padding-top:40px;}
+.footer-text2{width:600px; height:120px; padding-top:230px; float: left;}
+.company{font-size:14px; padding-bottom:10px;}
+.copyright{font-size:14px; padding-top:36px;}
+/**footer 끝**/

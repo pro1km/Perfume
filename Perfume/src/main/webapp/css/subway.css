@@ -1,0 +1,64 @@
+
+/**brandbox 시작**/
+.brandbox{width:1000px; height:237px; margin: 0 auto;}
+.brand_img{width:364px; height:237px; margin-top:90px;}
+.brand_text{width:636px; height:237px; margin-left:364px;}
+.brand-text1{font-size:14px;  margin-top:-175px;}
+.brand-text2{font-size:14px;  margin-top:16px;}
+.brand-text3{font-size:14px;  margin-top:16px;}
+.brand-text4{font-size:14px;  margin-top:16px;}
+/**brandbox 끝**/
+
+ul{list-style:none;}
+.sub_title{width:878px; height:60px; margin:auto;}
+.sub_title > ul > li:nth-child(1){width: 5px; height:20px; background-color:#ebcab6; float: left;}
+.sub_title > ul > li:nth-child(2){height:20px; line-height:20px; padding-left:15px; font-size:18px;}
+hr{width:878px; margin:auto; margin-top: 10px;}
+
+.brandbox2{width:1000px; margin: 0 auto; margin-top:30px;}
+.brandbox2_sbox{width: 33.3%; height:250px; float: left;}
+.pictogram{width:180px; height:180px; margin:auto;}
+.pic-text{font-size:18px; text-align: center; padding-top: 10px;}
+ span{font-weight:bold;}
+
+ /*게시판*/
+.review_box1{width:878px; height:640px; margin:0 auto; padding-bottom:20px;}
+.review_box2{height:330px; margin: 0 auto;  float: left; width: 33.3%; box-sizing: border-box;}
+.review_imgbox1{width:170px;height:210px; border:2px solid #ff8080; margin: 0 auto;} 
+.review_imgbox1:hover{background-color:#ffe8e8; transition:0.5s all;}
+.review_imgtext1{font-size: 16px; text-align: center; margin-top: 20px;}
+.review_imgtext2{font-size: 18px; text-align: center; margin-top: 10px;}
+.review_footer{text-align: center; margin-top: 30px;}
+.wrbox{width:1000px; margin: 0 auto; background-color:red; z-index:0;}
+.write{margin-left:800px; width: 100px; height: 40px; border: 1px solid; text-align: center; font-size: 16px; line-height: 40px; border-radius: 10px;
+		cursor: pointer; z-index:100; position:absolute}
+.rv_pass{font-weight:normal;}
+
+ /* 리뷰작성 시작 */
+.wr_id{width: 800px; font-size: 18px; font-weight: bold; margin: 0 auto; padding-left: 20px;}
+.write_table{width: 800px; height: 500px; margin: 0 auto; margin-top: 10px;}
+.wr_tr1{height:50px;}
+.wr_td1{width: 120px;}
+.wr_text{font-size: 18px; font-weight: bold;}
+.wr_text2{font-size: 18px;}
+.wr_name{width: 600px; height: 20px; font-size: 14px; padding:3px;}
+.wr_textarea{width:600px; height:250px; font-size: 14px; border: none; resize: none;}
+.wr_fileup{width: 70px; height: 30px; display: inline-block; font-size: 14px; background-color: #edd0be; cursor: pointer; 
+           border-radius: 10px; text-align: center; line-height: 30px;}
+.wr_back{width: 100px; height: 40px; border: 1px solid; text-align: center; font-size: 16px; line-height: 40px; border-radius: 10px;
+		cursor: pointer; background-color: white;}
+.wr_back:hover{width: 100px; height: 40px; border:1px solid #f00;  line-height: 40px;  border-radius: 10px;}
+.wr_add{width: 100px; height: 40px; border: 1px solid; text-align: center; font-size: 16px; line-height: 30px; border-radius: 10px;
+        cursor: pointer; background-color: white;}
+.wr_add:hover{color:red;}
+.wr_move > li{float: left; padding: 15px;}
+.wr_move{float: right;}
+.wr_addbox{width: 800px; margin: 0 auto;}
+td{padding: 10px;}
+.hov{text-decoration: none; color: black;}
+
+/* 리뷰작성 끝*/
+
+.v_back{width: 100px; height: 40px; border: 1px solid; text-align: center; font-size: 16px; line-height: 40px; border-radius: 10px;
+         cursor: pointer; background-color: white;}
+.v_back:hover{color:red;}

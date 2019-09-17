@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{margin: 0px; padding: 0px; font-family:"NanumGothic"; }
+body {overflow-y:auto;} 
+a{text-decoration: none; color: black}
+a:hover{color: red; transition:0.2s all;}
+label{cursor:pointer;}
+input[type=checkbox]{cursor:pointer;}
+
+/**헤더**/
+#wrap{width:100%; border-top:solid 2px #c55889;}
+.header{width:960px; height:123px; margin:0 auto;}
+.logo{float:left;}
+.firstbox{width:930px; height:30px; margin-top:10px;}
+.header .first li {float:right; font-size:14px; list-style:none; text-decoration:none; color:#666666; padding:0px 10px;  }
+.header .second{float:right; margin-top:-20px;}
+.header .second li {float:right; font-size:16pt; font-weight:bold; list-style:none; text-decoration:none; color:black; padding:0px 36px; margin-top:50px; }
+.header .first li a{text-decoration:none; color:#666666;}
+.header .first li a:hover{color:red; transition:all 0.5s;}
+.header .second li a{text-decoration:none; color:black;}
+.header .second li a:hover{color:red; transition:all 0.5s;}
+/**헤더 끝**/
