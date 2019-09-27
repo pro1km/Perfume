@@ -59,4 +59,4 @@ perfume
 ## 3.3. 퍼블리싱 코드
 [jsp](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/WEB-INF/views) / 
 [css](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/css) / 
-[JavaScript/Jquery](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/js)
+[JavaScript&Jquery](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/js)
