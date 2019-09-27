@@ -11,3 +11,50 @@ perfume
 자기 자신만의 고유한 향기가 있었으면 하는 마음에 홈페이지를 제작하고자 하였습니다.
 
 ## 1.2. 특징
+  * 원하는 향을 선택하고 조합하여 자신만의 고유 향기를 가질 수 있게 도와준다.
+  * 세상에 하나뿐인 특별한 향수
+  * 직접 제작한 향수의 리뷰
+  * 자신을 표현하는 마이페이지
+  * 드래그 앤 드롭 기능
+
+***
+
+# 2. 내 활동
+
+## 2.1. 회원가입
+  * 로그인 페이지, 약관동의 페이지, 정보 입력 페이지 퍼블리싱
+  * 약관동의 시 모두 동의해야 넘어갈 수 있도록 JavaScript를 활용한 유효성 검사
+  * Ajax를 활용해서 아이디 중복확인
+  * 정규식을 사용해서 아이디 영문+숫자 조합, 비정상 이메일을 확인
+  * 빈칸이나 비밀번호 확인이 일치하지 않을시에 회원가입이 되지 않도록 Jquery를 활용한 유효성 검사
+
+## 2.2. 리뷰페이지
+  * 리뷰작성 페이지 퍼블리싱
+  * CRUD를 응용 리뷰작성, 리뷰보기, 수정, 삭제가 되도록 만듬 (자신의 ID, 자신이 선택한 향수, 향수병이 보임)
+  * JSTL의 sessionscope를 이용해서 자신이 쓴 글만 수정,삭제가 되도록 만듬
+  * 리뷰게시판은 리뷰의 작성자의 ID 와 작성자가 쓴 향수이름, 작성자가 선택한 향수병이 보임
+  * 페이징을 해서 게시글이 6개씩 보이고 현재 페이지가 강조됨
+
+## 2.3. 마이페이지
+  * 마이페이지 퍼블리싱
+  * 자신의 ID, 자신이 만든 향수의 개수와 작성한 리뷰 수를 볼 수 있음
+  * 자신이 만든 향수들을 볼 수 있음
+  * 페이징을 해서 만든 향수가 3개씩 보이고 현재 페이지가 강조됨
+  
+# 3. 코드
+
+## 3.1. 개발 코드
+[Controller](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/controller) / 
+[Service](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/service) / 
+[Dao](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/dao); / 
+[Model](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/model); / 
+[util](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/util) / 
+[interceptor](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/interceptor)
+
+## 3.2. Mapper 코드
+[Mybatis](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/resources/mybatis)
+
+## 3.3. 퍼블리싱 코드
+[jsp](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/WEB-INF/views jsp) / 
+[css](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/css) / 
+[JavaScript/Jquery](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/js)
