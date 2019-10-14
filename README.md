@@ -39,6 +39,7 @@ perfume
 
 ### 2.2.2. src (개발 적힌 곳은 직접 개발)
 ![perfume-src](https://user-images.githubusercontent.com/51186886/66731129-a7d58380-ee90-11e9-945e-4b37de956276.PNG)
+![perfume-src2](https://user-images.githubusercontent.com/51186886/66731147-cf2c5080-ee90-11e9-9c64-c1e3a424ee33.PNG)
 
 ### 2.2.3. 테이블 구조
 
