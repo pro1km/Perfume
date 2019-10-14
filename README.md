@@ -24,8 +24,15 @@ perfume
 
 # 2. 설계 사양서
 
-## 2.1. 논리모드
+## 2.1. ERD
+
+### 2.1.1. 논리모드
 ![perfume-logic](https://user-images.githubusercontent.com/51186886/66729211-e7966e00-ee84-11e9-97ce-21dbf998e6c7.PNG)
+
+### 2.1.2. 물리모드
+![perfume-physics](https://user-images.githubusercontent.com/51186886/66729281-55db3080-ee85-11e9-8174-514ebc80f18f.PNG)
+
+## 2.2. 네이밍 
 
 ***
 
