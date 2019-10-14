@@ -34,8 +34,13 @@ perfume
 
 ## 2.2. 네이밍 구조
 
-### 2.2.1. JSP (퍼블리싱 적힌 곳은 직접 퍼블리싱)
+### 2.2.1. 퍼블리싱 (퍼블리싱 적힌 곳은 직접 퍼블리싱)
+jsp
 ![perfume-jsp](https://user-images.githubusercontent.com/51186886/66731490-9c835780-ee92-11e9-88fc-4941ac46d636.PNG)
+css
+![perfume-css](https://user-images.githubusercontent.com/51186886/66733433-84afd180-ee9a-11e9-80b9-26f60f4b45cf.PNG)
+js
+![perfume-js](https://user-images.githubusercontent.com/51186886/66733436-87aac200-ee9a-11e9-9215-20455833f98a.PNG)
 
 ### 2.2.2. 퍼블리싱 코드
 [jsp](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/WEB-INF/views) / 
@@ -44,7 +49,7 @@ perfume
 
 ### 2.2.3. 개발 (개발 적힌 곳은 직접 개발)
 ![perfume-src](https://user-images.githubusercontent.com/51186886/66731129-a7d58380-ee90-11e9-945e-4b37de956276.PNG)
-![perfume-src2](https://user-images.githubusercontent.com/51186886/66731147-cf2c5080-ee90-11e9-9c64-c1e3a424ee33.PNG)
+![perfume-src2](https://user-images.githubusercontent.com/51186886/66733441-8a0d1c00-ee9a-11e9-8ee9-fef2bb2a9dbe.PNG)
 
 ### 2.2.4. 개발 코드
 [SRC](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume) / 
