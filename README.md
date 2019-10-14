@@ -37,11 +37,25 @@ perfume
 ### 2.2.1. WebContent (퍼블리싱 적힌 곳은 직접 퍼블리싱)
 ![perfume-views](https://user-images.githubusercontent.com/51186886/66729957-6e4d4a00-ee89-11e9-8abc-3699a4ed17c6.PNG)
 
-### 2.2.2. src (개발 적힌 곳은 직접 개발)
+### 2.2.2. 퍼블리싱 코드
+[jsp](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/WEB-INF/views) / 
+[css](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/css) / 
+[JavaScript&Jquery](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/js)
+
+### 2.2.3. src (개발 적힌 곳은 직접 개발)
 ![perfume-src](https://user-images.githubusercontent.com/51186886/66731129-a7d58380-ee90-11e9-945e-4b37de956276.PNG)
 ![perfume-src2](https://user-images.githubusercontent.com/51186886/66731147-cf2c5080-ee90-11e9-9c64-c1e3a424ee33.PNG)
 
-### 2.2.3. 테이블 구조
+### 2.2.4. 개발 코드
+[src](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume)
+[Controller](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/controller) / 
+[Service](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/service) / 
+[Dao](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/dao) / 
+[Model](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/model) / 
+[util](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/util) / 
+[interceptor](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/interceptor)
+
+### 2.2.5. 테이블 구조
 
 
 ***
