@@ -35,7 +35,7 @@ perfume
 ## 2.2. 네이밍 구조
 
 ### 2.2.1. JSP (퍼블리싱 적힌 곳은 직접 퍼블리싱)
-![perfume-views](https://user-images.githubusercontent.com/51186886/66729957-6e4d4a00-ee89-11e9-8abc-3699a4ed17c6.PNG)
+![perfume-jsp](https://user-images.githubusercontent.com/51186886/66731490-9c835780-ee92-11e9-88fc-4941ac46d636.PNG)
 
 ### 2.2.2. 퍼블리싱 코드
 [jsp](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/WEB-INF/views) / 
