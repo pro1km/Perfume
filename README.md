@@ -32,7 +32,15 @@ perfume
 ### 2.1.2. 물리모드
 ![perfume-physics](https://user-images.githubusercontent.com/51186886/66729281-55db3080-ee85-11e9-8174-514ebc80f18f.PNG)
 
-## 2.2. 네이밍 
+## 2.2. 네이밍 구조
+
+### 2.2.1. WebContent (퍼블리싱 적힌 곳은 직접 퍼블리싱)
+![perfume-views](https://user-images.githubusercontent.com/51186886/66729957-6e4d4a00-ee89-11e9-8abc-3699a4ed17c6.PNG)
+
+### 2.2.2. src (개발 적힌 곳은 직접 개발)
+
+### 2.2.3. 테이블 구조
+
 
 ***
 
