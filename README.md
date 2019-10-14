@@ -35,11 +35,11 @@ perfume
 ## 2.2. 네이밍 구조
 
 ### 2.2.1. 퍼블리싱 (퍼블리싱 적힌 곳은 직접 퍼블리싱)
- jsp
+ *jsp
 ![perfume-jsp](https://user-images.githubusercontent.com/51186886/66731490-9c835780-ee92-11e9-88fc-4941ac46d636.PNG)
- css
+ *css
 ![perfume-css](https://user-images.githubusercontent.com/51186886/66733433-84afd180-ee9a-11e9-80b9-26f60f4b45cf.PNG)
- js
+ *js
 ![perfume-js](https://user-images.githubusercontent.com/51186886/66733436-87aac200-ee9a-11e9-9215-20455833f98a.PNG)
 
 ### 2.2.2. 퍼블리싱 코드
@@ -74,11 +74,25 @@ perfume
 # 3. 내 활동
 
 ## 3.1. 회원가입
-  * 로그인 페이지, 약관동의 페이지, 정보 입력 페이지 퍼블리싱
+
+### 3.1.1. 로그인 페이지
+![perfume-login](https://user-images.githubusercontent.com/51186886/66737011-c42feb00-eea5-11e9-8aa3-644b0767338f.PNG)
+  * 로그인 페이지 퍼블리싱
+
+### 3.1.2. 약관동의 페이지
+![perfume-terms](https://user-images.githubusercontent.com/51186886/66737049-dca00580-eea5-11e9-8908-7267acd17840.PNG)
+  * 약관동의 페이지 퍼블리싱
+  * 표준약관을 참조하여 만듬
+![perfume-agree](https://user-images.githubusercontent.com/51186886/66737051-df025f80-eea5-11e9-9522-2f0793e41147.PNG)
   * 약관동의 시 모두 동의해야 넘어갈 수 있도록 JavaScript를 활용한 유효성 검사
-  * Ajax를 활용해서 아이디 중복확인
+
+### 3.1.3. 회원가입 정보 입력 페이지
+![perfume-info](https://user-images.githubusercontent.com/51186886/66737053-e0cc2300-eea5-11e9-8cf4-154c84d38d2f.PNG)
+  * 회원가입 정보 입력 페이지 퍼블리싱
   * 정규식을 사용해서 아이디 영문+숫자 조합, 비정상 이메일을 확인
   * 빈칸이나 비밀번호 확인이 일치하지 않을시에 회원가입이 되지 않도록 Jquery를 활용한 유효성 검사
+![perfume-over](https://user-images.githubusercontent.com/51186886/66737057-e295e680-eea5-11e9-9945-e5376f78e3fc.PNG)
+  * Ajax를 활용해서 아이디 중복확인
 
 ## 3.2. 리뷰페이지
   * 리뷰작성 페이지 퍼블리싱
