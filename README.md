@@ -35,11 +35,11 @@ perfume
 ## 2.2. 네이밍 구조
 
 ### 2.2.1. 퍼블리싱 (퍼블리싱 적힌 곳은 직접 퍼블리싱)
- ####jsp
+ jsp
 ![perfume-jsp](https://user-images.githubusercontent.com/51186886/66731490-9c835780-ee92-11e9-88fc-4941ac46d636.PNG)
- ####css
+ css
 ![perfume-css](https://user-images.githubusercontent.com/51186886/66733433-84afd180-ee9a-11e9-80b9-26f60f4b45cf.PNG)
- ####js
+ js
 ![perfume-js](https://user-images.githubusercontent.com/51186886/66733436-87aac200-ee9a-11e9-9215-20455833f98a.PNG)
 
 ### 2.2.2. 퍼블리싱 코드
