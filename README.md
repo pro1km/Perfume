@@ -55,6 +55,12 @@ perfume
 [util](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/util) / 
 [interceptor](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/interceptor)
 
+### 2.2.5. MAPPER (개발 적힌 곳은 직접 개발)
+![perfume-mapper](https://user-images.githubusercontent.com/51186886/66731970-000e8480-ee95-11e9-8754-51a3ebba27b3.PNG)
+
+### 2.2.6. MAPPER 코드
+[Mybatis](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/resources/mybatis)
+
 ## 2.3. 테이블 구조
 ![perfume-table](https://user-images.githubusercontent.com/51186886/66731303-a6588b00-ee91-11e9-971a-9ae72b34f1c8.PNG)
 
