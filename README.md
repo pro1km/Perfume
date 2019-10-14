@@ -16,6 +16,9 @@ perfume
   * 직접 제작한 향수의 리뷰
   * 자신을 표현하는 마이페이지
   * 드래그 앤 드롭 기능
+  
+## 1.3. 개발환경
+![perfume_os](https://user-images.githubusercontent.com/51186886/66729103-2677f400-ee84-11e9-87c4-eda60d3358f5.PNG)
 
 ***
 
