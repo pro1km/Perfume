@@ -18,7 +18,7 @@ perfume
   * 드래그 앤 드롭 기능
   
 ## 1.3. 개발환경
-![perfume_os](https://user-images.githubusercontent.com/51186886/66729103-2677f400-ee84-11e9-87c4-eda60d3358f5.PNG)
+![perfume_os](https://user-images.githubusercontent.com/51186886/66729140-60e19100-ee84-11e9-942b-b3a08bdb4b8d.PNG)
 
 ***
 
