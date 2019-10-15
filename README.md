@@ -121,6 +121,22 @@ perfume
   * 리뷰 작성하기를 누르면 작성페이지로 감
   * 페이징을 해서 만든 향수가 3개씩 보이고 현재 페이지가 강조됨
   
+## 3.4. 향수제작 페이지
+
+### 3.4.1. 향수제작 페이지 1번
+![perfume-make1](https://user-images.githubusercontent.com/51186886/66827591-fdda2200-ef89-11e9-904d-3105c1c33649.PNG)
+  * 향수제작 페이지 1번 퍼블리싱
+![perfume-tab](https://user-images.githubusercontent.com/51186886/66827583-fd418b80-ef89-11e9-9192-42295d322dd0.PNG)
+  * Jquery를 사용해서 탭메뉴 기능을 만들고 향수를 카테고리별로 나눔
+![perfume-man1](https://user-images.githubusercontent.com/51186886/66827587-fdda2200-ef89-11e9-8710-22866d35a648.PNG)
+  * 남성페이지 퍼블리싱
+  
+### 3.4.2. 향수제작 페이지 2번
+![perfume-make2](https://user-images.githubusercontent.com/51186886/66827585-fdda2200-ef89-11e9-8ff7-080b2d0239ae.PNG)
+  * 향수제작 페이지 2번 퍼블리싱
+![perfume-man2](https://user-images.githubusercontent.com/51186886/66827590-fdda2200-ef89-11e9-9344-9eef0921a23e.PNG)
+  * 남성페이지 퍼블리싱
+  
 ***
   
 # 3. 코드
