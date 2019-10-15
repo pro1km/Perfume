@@ -37,8 +37,10 @@ perfume
 ### 2.2.1. 퍼블리싱 (퍼블리싱 적힌 곳은 직접 퍼블리싱)
  *jsp
 ![perfume-jsp](https://user-images.githubusercontent.com/51186886/66731490-9c835780-ee92-11e9-88fc-4941ac46d636.PNG)
+
  *css
 ![perfume-css](https://user-images.githubusercontent.com/51186886/66733433-84afd180-ee9a-11e9-80b9-26f60f4b45cf.PNG)
+
  *js
 ![perfume-js](https://user-images.githubusercontent.com/51186886/66733436-87aac200-ee9a-11e9-9215-20455833f98a.PNG)
 
@@ -83,6 +85,8 @@ perfume
 ![perfume-terms](https://user-images.githubusercontent.com/51186886/66737049-dca00580-eea5-11e9-8908-7267acd17840.PNG)
   * 약관동의 페이지 퍼블리싱
   * 표준약관을 참조하여 만듬
+  
+  
 ![perfume-agree](https://user-images.githubusercontent.com/51186886/66737051-df025f80-eea5-11e9-9522-2f0793e41147.PNG)
   * 약관동의 시 모두 동의해야 넘어갈 수 있도록 JavaScript를 활용한 유효성 검사
 
@@ -91,6 +95,8 @@ perfume
   * 회원가입 정보 입력 페이지 퍼블리싱
   * 정규식을 사용해서 아이디 영문+숫자 조합, 비정상 이메일을 확인
   * 빈칸이나 비밀번호 확인이 일치하지 않을시에 회원가입이 되지 않도록 Jquery를 활용한 유효성 검사
+  
+  
 ![perfume-over](https://user-images.githubusercontent.com/51186886/66737057-e295e680-eea5-11e9-9945-e5376f78e3fc.PNG)
   * Ajax를 활용해서 아이디 중복확인
 
@@ -126,8 +132,12 @@ perfume
 ### 3.4.1. 향수제작 페이지 1번
 ![perfume-make1](https://user-images.githubusercontent.com/51186886/66827591-fdda2200-ef89-11e9-904d-3105c1c33649.PNG)
   * 향수제작 페이지 1번 퍼블리싱
+  
+  
 ![perfume-tab](https://user-images.githubusercontent.com/51186886/66827583-fd418b80-ef89-11e9-9192-42295d322dd0.PNG)
   * Jquery를 사용해서 탭메뉴 기능을 만들고 향수를 카테고리별로 나눔
+  
+  
 ![perfume-man1](https://user-images.githubusercontent.com/51186886/66827587-fdda2200-ef89-11e9-8710-22866d35a648.PNG)
   * 남성페이지 퍼블리싱
   
