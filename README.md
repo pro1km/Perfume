@@ -150,21 +150,3 @@ perfume
   * 남성페이지 퍼블리싱
   
 ***
-  
-# 3. 코드
-
-## 3.1. 개발 코드
-[Controller](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/controller) / 
-[Service](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/service) / 
-[Dao](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/dao) / 
-[Model](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/model) / 
-[util](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/util) / 
-[interceptor](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/interceptor)
-
-## 3.2. Mapper 코드
-[Mybatis](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/resources/mybatis)
-
-## 3.3. 퍼블리싱 코드
-[jsp](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/WEB-INF/views) / 
-[css](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/css) / 
-[JavaScript&Jquery](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/js)
