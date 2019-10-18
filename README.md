@@ -167,22 +167,7 @@ https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/css/subway
 ![perfume-man2](https://user-images.githubusercontent.com/51186886/66827590-fdda2200-ef89-11e9-9344-9eef0921a23e.PNG)
   * 남성페이지 퍼블리싱
   
+### 3.4.3. 향수제작 관련 코드
+  * 퍼블리싱 코드 : [여자.jsp](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/WEB-INF/views/woman.jsp) / [여자.css](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/css/woman.css) / [여자.js](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/js/woman.js) / [남자.jsp](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/WEB-INF/views/man.jsp) / [남자.css](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/css/man.css) / [남자.js](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/js/man.js)
+
 ***
-
-# 3. 코드
-
-## 3.1. 개발 코드
-[Controller](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/controller) / 
-[Service](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/service) / 
-[Dao](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/dao) / 
-[Model](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/model) / 
-[util](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/util) / 
-[interceptor](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/java/kr/ac/kopo/perfume/interceptor)
-
-## 3.2. Mapper 코드
-[Mybatis](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/resources/mybatis)
-
-## 3.3. 퍼블리싱 코드
-[jsp](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/WEB-INF/views) / 
-[css](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/css) / 
-[JavaScript&Jquery](https://github.com/pro1km/Perfume/tree/master/Perfume/src/main/webapp/js)
