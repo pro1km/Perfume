@@ -103,7 +103,7 @@ perfume
   * Ajax를 활용해서 아이디 중복확인
   * [회원가입.jsp](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/WEB-INF/views/information.jsp) / [회원가입.css](
 https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/css/member.css) / [회원가입.js](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/js/login.js)
-  * [회원가입.Controller](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/controller/RootController.java) / [회원가입.dao](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/dao/UserDaoImpl.java) / [회원가입.model](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/model/Member.java ) / [회원가입.mapper](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/resources/mybatis/member.xml)
+  * [회원가입.Controller](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/controller/RootController.java) / [회원가입.Dao](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/dao/UserDaoImpl.java) / [회원가입.Model](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/model/Member.java ) / [회원가입.Mapper](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/resources/mybatis/member.xml)
 
 ## 3.2. 리뷰페이지
 
@@ -113,16 +113,27 @@ https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/css/member
   * 자신이 로그인한 아이디, 자신이 선택한 향수의 재료, 자신이 선택한 향수병이 보임
   * 유효성 검사를 통해 향수이름 이나 내용이 작성되지 않았으면 작성되지 않도록 함
   * 작성하기를 누르면 자신이 작성한 글과 만든 향수가 DB에 저장됨
+  * [리뷰작성.jsp](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/WEB-INF/views/write.jsp) / [리뷰.css](
+https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/css/subway.css) / [리뷰.js](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/js/sub.js)
+
   
 ### 3.2.2. 리뷰게시판
 ![perfume-review](https://user-images.githubusercontent.com/51186886/66824222-d3389b00-ef82-11e9-8390-19cc2c60e84d.PNG)
   * 리뷰를 작성한 작성자의 ID와 작성자가 만든 향수가 보임
   * 페이징을 하여 게시글이 6개씩 보이고 자신이 보는 페이지를 강조
+  * [리뷰게시판.jsp](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/WEB-INF/views/review.jsp)
+
 
 ### 3.2.3. 리뷰글 보는 페이지
 ![perfume-viewpage](https://user-images.githubusercontent.com/51186886/66826265-109f2780-ef87-11e9-9548-785dacf31386.PNG)
+  * 리뷰글 보는 페이지 퍼블리싱
   * 작성자가 작성한 내용이 보임
   * JSTL의 sessionscope를 이용해서 자신이 쓴 글만 수정, 삭제가 됨
+  * [View.jsp](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/WEB-INF/views/view.jsp) / [View.css](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/css/subway.css) / [View.js](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/js/sub.js)
+
+### 3.2.4. 리뷰 관련 코드
+  * [리뷰.Controller](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/controller/ReviewController.java) / [리뷰.Service](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/service/ReviewServiceImpl.java) / [리뷰.Dao](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/dao/ReviewDaoImpl.java) / [리뷰.Model](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/model/Review.java) / [리뷰.Mapper](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/resources/mybatis/review.xml)/ [리뷰페이징 코드](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/util/Pager.java)
+  
 
 ## 3.3. 마이페이지
 ![perfume-mypage](https://user-images.githubusercontent.com/51186886/66826835-5b6d6f00-ef88-11e9-85c0-0d87b8b721d6.PNG)
