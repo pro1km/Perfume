@@ -86,24 +86,24 @@ perfume
 ![perfume-terms](https://user-images.githubusercontent.com/51186886/66737049-dca00580-eea5-11e9-8908-7267acd17840.PNG)
   * 약관동의 페이지 퍼블리싱
   * 표준약관을 참조하여 만듬
-  * [약관동의.jsp](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/WEB-INF/views/terms.jsp) / [약관동의.css](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/css/member.css)
   
   
 ![perfume-agree](https://user-images.githubusercontent.com/51186886/66737051-df025f80-eea5-11e9-9522-2f0793e41147.PNG)
   * 약관동의 시 모두 동의해야 넘어갈 수 있도록 JavaScript를 활용한 유효성 검사
+  * [약관동의.jsp](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/WEB-INF/views/terms.jsp) / [약관동의.css](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/css/member.css)
 
 ### 3.1.3. 회원가입 정보 입력 페이지
 ![perfume-info](https://user-images.githubusercontent.com/51186886/66737053-e0cc2300-eea5-11e9-8cf4-154c84d38d2f.PNG)
   * 회원가입 정보 입력 페이지 퍼블리싱
   * 정규식을 사용해서 아이디 영문+숫자 조합, 비정상 이메일을 확인
   * 빈칸이나 비밀번호 확인이 일치하지 않을시에 회원가입이 되지 않도록 Jquery를 활용한 유효성 검사
-  * [회원가입.jsp](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/WEB-INF/views/information.jsp) / [회원가입.css](
-https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/css/member.css) / [회원가입.js](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/js/login.js)
-  * [회원가입.Controller](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/controller/RootController.java) / [회원가입.dao](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/dao/UserDaoImpl.java) / [회원가입.model](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/model/Member.java ) / [회원가입.mapper](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/resources/mybatis/member.xml)
   
   
 ![perfume-over](https://user-images.githubusercontent.com/51186886/66737057-e295e680-eea5-11e9-9945-e5376f78e3fc.PNG)
   * Ajax를 활용해서 아이디 중복확인
+  * [회원가입.jsp](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/WEB-INF/views/information.jsp) / [회원가입.css](
+https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/css/member.css) / [회원가입.js](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/webapp/js/login.js)
+  * [회원가입.Controller](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/controller/RootController.java) / [회원가입.dao](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/dao/UserDaoImpl.java) / [회원가입.model](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/java/kr/ac/kopo/perfume/model/Member.java ) / [회원가입.mapper](https://github.com/pro1km/Perfume/blob/master/Perfume/src/main/resources/mybatis/member.xml)
 
 ## 3.2. 리뷰페이지
 
